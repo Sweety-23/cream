@@ -560,7 +560,7 @@ h5{
 }
 .info-box .content h4 {
 	font-size: 1.1rem;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: italic;
 }
 .mail{
 text-decoration: none;
@@ -572,9 +572,10 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 20px;
 	display:inline-block;
 	margin-left:10px;
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-family: italic;
 	padding-bottom: 2rem;
 	padding-top: 3rem;
+	text-align: center;
 	
 	
 }
@@ -584,7 +585,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	text-decoration: none;
 	color:whitesmoke;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	
+	text-align: center;
 }
 .midli{
 	list-style-type: none;
