@@ -307,7 +307,11 @@ grid-template-columns: repeat(2,1fr);
 	
 }
 .bg-grey {
-	background-color: #fafafa;
+	background-color:#333;
+
+}
+.bg-black{
+	background-color: #000;
 }
 .bg-white {
 	background: #ffffff;
@@ -382,7 +386,7 @@ section{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 40px auto;
+    /* margin: 40px auto; */
 }
 section ul{
     display: flex;
@@ -458,7 +462,7 @@ section ul li.active{
 .query-section {
 	width: 100%;
 	height: 4rem;
-	background-color: rgb(163, 154, 154);
+	background-color: black;
 	color: #eee;
 	font-size: large;
 }
@@ -468,7 +472,7 @@ section ul li.active{
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .ph3{
-	color: rgb(63, 63, 77);
+	color: wheat;
 	font-size: medium;
 }
 .map {
@@ -519,7 +523,9 @@ h5{
 /* FOOTER STARTS */
 
 .bg-black{
-	background-color: #333;
+	background-color:black;
+	color: whitesmoke;
+
 }
 
 
@@ -538,6 +544,7 @@ h5{
 	position:relative;
 	padding-bottom:3rem;
 	border-radius: 4px;
+	
 }
 .info-box .icon {
 	display:inline-block;
@@ -545,7 +552,7 @@ h5{
 }
 .info-box .icon i {
 	font-size: 1.5rem;
-	color: #ab2f52;
+	color: whitesmoke;
 }
 .info-box .content {
 	display:inline-block;
@@ -553,16 +560,19 @@ h5{
 }
 .info-box .content h4 {
 	font-size: 1.1rem;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .mail{
 text-decoration: none;
-color: black;
+color:whitesmoke;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 .mid{
 	font-size: 20px;
 	display:inline-block;
 	margin-left:10px;
-	
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	padding-bottom: 2rem;
 	
 	
@@ -571,8 +581,8 @@ color: black;
 	line-height:2rem;
 	font-size: 15px;
 	text-decoration: none;
-	color: #000;
-
+	color:whitesmoke;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	
 }
 .midli{
@@ -580,9 +590,13 @@ color: black;
 	padding-left: 3rem;
 	
 }
-.border{
+footer{
+	background-color: #000;
+	padding-top: 3rem;
+}
+/* .border{
 	padding-top: 3rem;
     border-radius: 3rem;
     border-style: inset;
 	padding-left: 2rem;
-}
+} */
