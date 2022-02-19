@@ -16,11 +16,10 @@
 			display: block;
 			
 		}
-		.box{
-			height: 15rem;}
+		
 			
 		.about2{
-			line-height:xx-small;
+			line-height:1.1rem !important;
 		}
 	
 	}
