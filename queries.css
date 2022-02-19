@@ -11,6 +11,19 @@
 		max-width: 1000rem;
 	} */
 	}
+	@media all and (max-width:800px)	{
+		.flex{
+			display: block;
+			
+		}
+		.box{
+			height: 30rem;
+		}
+		.about2{
+			line-height:xx-small;
+		}
+	
+	}
 	@media all and (max-width: 720px) {
 		.container-nav {
 		  flex-direction: column;
